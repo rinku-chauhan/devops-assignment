@@ -1,4 +1,4 @@
-# DevOps Assignment
+t# DevOps Assignment
 
 ## Task 1: Monitoring
 - Created monitoring script
@@ -17,4 +17,3 @@
 
 ## Notes
 - Used /etc/apache2 instead of /etc/httpd (Ubuntu)
-- Duplicate backup due to shared document root
