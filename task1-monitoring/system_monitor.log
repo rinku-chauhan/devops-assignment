@@ -1,0 +1,1275 @@
+===== Tue Mar 24 18:37:21 UTC 2026 =====
+top - 18:37:21 up  3:38,  2 users,  load average: 0.01, 0.07, 0.04
+Tasks:  39 total,   1 running,  38 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.1 us,  2.1 sy,  0.0 ni, 93.6 id,  2.1 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5234.1 free,    485.0 used,    272.0 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5360.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21696  12496   9168 S   0.0   0.2   0:04.09 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  512K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        4621  0.1  0.2 1756364 13056 ?       Ssl  18:36   0:00 /usr/libexec/wsl-pro-service
+root           1  0.0  0.2  21696 12496 ?        Ss   14:58   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:58   0:03 /usr/lib/systemd/systemd-udevd
+root          44  0.0  0.3  83212 19328 ?        S<s  14:58   0:02 /usr/lib/systemd/systemd-journald
+
+===== Tue Mar 24 18:38:01 UTC 2026 =====
+top - 18:38:02 up  3:39,  2 users,  load average: 0.00, 0.06, 0.03
+Tasks:  43 total,   1 running,  42 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5230.7 free,    488.2 used,    272.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5357.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.10 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  512K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        4621  0.0  0.2 1756364 13056 ?       Ssl  18:36   0:00 /usr/libexec/wsl-pro-service
+root           1  0.0  0.2  21888 12496 ?        Ss   14:58   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:58   0:03 /usr/lib/systemd/systemd-udevd
+root          44  0.0  0.3  83212 19328 ?        S<s  14:58   0:02 /usr/lib/systemd/systemd-journald
+
+===== Tue Mar 24 18:40:01 UTC 2026 =====
+top - 18:40:01 up  3:41,  2 users,  load average: 0.00, 0.03, 0.02
+Tasks:  44 total,   1 running,  43 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5229.8 free,    489.1 used,    272.3 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5356.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4682 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.11 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  512K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    4685  100  0.0   8280  4224 ?        R    18:40   0:00 ps aux --sort=-%cpu
+root        4621  0.0  0.2 1756364 13056 ?       Ssl  18:35   0:00 /usr/libexec/wsl-pro-service
+root           1  0.0  0.2  21888 12496 ?        Ss   14:58   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:58   0:03 /usr/lib/systemd/systemd-udevd
+
+===== Tue Mar 24 18:42:01 UTC 2026 =====
+top - 18:42:01 up  3:43,  2 users,  load average: 0.02, 0.03, 0.01
+Tasks:  41 total,   1 running,  40 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.3 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5223.6 free,    481.4 used,    286.1 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5363.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4711 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.12 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  512K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2  21888 12496 ?        Ss   14:58   0:04 /sbin/init
+root        4621  0.0  0.2 1756364 13056 ?       Ssl  18:35   0:00 /usr/libexec/wsl-pro-service
+root          98  0.0  0.1  25356  6528 ?        Ss   14:58   0:03 /usr/lib/systemd/systemd-udevd
+root          44  0.0  0.3  83212 19312 ?        S<s  14:58   0:02 /usr/lib/systemd/systemd-journald
+
+===== Tue Mar 24 18:44:01 UTC 2026 =====
+top - 18:44:01 up  3:46,  2 users,  load average: 0.06, 0.04, 0.01
+Tasks:  47 total,   1 running,  46 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.1 sy,  0.0 ni, 97.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5350.1 free,    488.3 used,    152.0 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5356.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4855 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.02 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.14 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  512K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    4858  100  0.0   8280  4224 ?        R    18:44   0:00 ps aux --sort=-%cpu
+root        4851  3.2  0.0   6956  3720 ?        S    18:44   0:00 /usr/sbin/CRON -f -P
+root        4827  0.2  0.0   7256  4660 pts/2    S    18:43   0:00 su - aarohilinux
+aarohil+    4828  0.1  0.0   6072  5248 pts/2    S+   18:43   0:00 -bash
+
+===== Tue Mar 24 18:46:01 UTC 2026 =====
+top - 18:46:01 up  3:48,  2 users,  load average: 0.01, 0.04, 0.00
+Tasks:  47 total,   1 running,  46 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5340.6 free,    489.9 used,    160.1 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5355.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.16 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  512K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        4827  0.0  0.0   7256  4660 pts/2    S    18:43   0:00 su - aarohilinux
+root        4718  0.0  0.0   7252  4660 pts/2    S    18:42   0:00 su - mike
+root           1  0.0  0.2  21888 12496 ?        Ss   14:57   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:57   0:03 /usr/lib/systemd/systemd-udevd
+
+===== Tue Mar 24 18:48:01 UTC 2026 =====
+top - 18:48:02 up  3:50,  2 users,  load average: 0.00, 0.02, 0.00
+Tasks:  47 total,   1 running,  46 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  4.5 sy,  0.0 ni, 93.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5340.6 free,    489.8 used,    160.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5355.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.18 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  508K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2  21888 12496 ?        Ss   14:57   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:57   0:03 /usr/lib/systemd/systemd-udevd
+root          44  0.0  0.3  99604 22852 ?        S<s  14:57   0:03 /usr/lib/systemd/systemd-journald
+root        4827  0.0  0.0   7256  4660 pts/2    S    18:43   0:00 su - aarohilinux
+
+===== Tue Mar 24 18:50:01 UTC 2026 =====
+top - 18:50:01 up  3:52,  2 users,  load average: 0.01, 0.02, 0.00
+Tasks:  46 total,   1 running,  45 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5335.9 free,    494.5 used,    160.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5350.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.19 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  508K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    4921  100  0.0   8280  4224 ?        R    18:50   0:00 ps aux --sort=-%cpu
+root        4914  3.5  0.0   6956  3720 ?        S    18:50   0:00 /usr/sbin/CRON -f -P
+root           1  0.0  0.2  21888 12496 ?        Ss   14:57   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:57   0:03 /usr/lib/systemd/systemd-udevd
+
+===== Tue Mar 24 18:52:01 UTC 2026 =====
+top - 18:52:02 up  3:54,  2 users,  load average: 0.03, 0.02, 0.00
+Tasks:  46 total,   1 running,  45 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5333.8 free,    488.9 used,    168.1 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5356.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.20 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  508K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        4954  3.5  0.0   6956  3720 ?        S    18:52   0:00 /usr/sbin/CRON -f -P
+root           1  0.0  0.2  21888 12496 ?        Ss   14:57   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:57   0:03 /usr/lib/systemd/systemd-udevd
+root          44  0.0  0.3  91408 22860 ?        S<s  14:57   0:03 /usr/lib/systemd/systemd-journald
+
+===== Tue Mar 24 18:54:01 UTC 2026 =====
+top - 18:54:01 up  3:56,  2 users,  load average: 0.00, 0.01, 0.00
+Tasks:  48 total,   1 running,  47 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.2 us,  2.2 sy,  0.0 ni, 95.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5323.4 free,    491.3 used,    176.1 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5353.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.22 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  508K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2  21888 12496 ?        Ss   14:57   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:57   0:03 /usr/lib/systemd/systemd-udevd
+root          44  0.0  0.3  91408 22924 ?        S<s  14:57   0:03 /usr/lib/systemd/systemd-journald
+aarohil+    4828  0.0  0.0   6072  5248 pts/2    S+   18:42   0:00 -bash
+
+===== Tue Mar 24 18:56:01 UTC 2026 =====
+top - 18:56:01 up  3:59,  2 users,  load average: 0.11, 0.04, 0.01
+Tasks:  48 total,   1 running,  47 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  0.0 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4913.1 free,    494.8 used,    586.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5350.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5352 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.28 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  516K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+polkitd     5310  0.7  0.1 308164  7808 ?        Ssl  18:55   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root        5305  0.4  0.3 370088 20096 ?        Ssl  18:55   0:00 /usr/libexec/packagekitd
+root           1  0.0  0.2  21888 12496 ?        Ss   14:57   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:57   0:03 /usr/lib/systemd/systemd-udevd
+
+===== Tue Mar 24 18:58:01 UTC 2026 =====
+top - 18:58:02 up  4:01,  2 users,  load average: 0.07, 0.04, 0.00
+Tasks:  50 total,   1 running,  49 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  9.3 sy,  0.0 ni, 90.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5374.7 free,    486.7 used,    118.8 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5358.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5413 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.30 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  516K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    5418  100  0.0   8280  4224 ?        R    18:58   0:00 ps aux --sort=-%cpu
+root        5409  2.9  0.0   6956  3720 ?        S    18:58   0:00 /usr/sbin/CRON -f -P
+polkitd     5310  0.0  0.1 308164  7808 ?        Ssl  18:55   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root        5305  0.0  0.3 370088 20224 ?        Ssl  18:55   0:00 /usr/libexec/packagekitd
+
+===== Tue Mar 24 19:00:01 UTC 2026 =====
+top - 19:00:01 up  4:03,  2 users,  load average: 0.01, 0.02, 0.00
+Tasks:  48 total,   1 running,  47 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.2 us,  0.0 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5373.5 free,    487.5 used,    119.5 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5357.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5433 aarohil+  20   0    9284   5248   3200 R   8.3   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.31 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  516K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        5429  3.3  0.0   6956  3720 ?        S    19:00   0:00 /usr/sbin/CRON -f -P
+polkitd     5310  0.0  0.1 308164  7808 ?        Ssl  18:55   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root           1  0.0  0.2  21888 12496 ?        Ss   14:56   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:56   0:03 /usr/lib/systemd/systemd-udevd
+
+===== Tue Mar 24 19:02:01 UTC 2026 =====
+top - 19:02:01 up  4:05,  2 users,  load average: 0.00, 0.01, 0.00
+Tasks:  49 total,   1 running,  48 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  4.5 sy,  0.0 ni, 95.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5378.8 free,    482.1 used,    119.7 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5363.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.33 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  512K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2  21888 12496 ?        Ss   14:56   0:04 /sbin/init
+root          98  0.0  0.1  25356  6528 ?        Ss   14:56   0:03 /usr/lib/systemd/systemd-udevd
+polkitd     5310  0.0  0.1 308164  7808 ?        Ssl  18:55   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root          44  0.0  0.3  99604 22860 ?        S<s  14:56   0:03 /usr/lib/systemd/systemd-journald
+
+===== Tue Mar 24 19:04:01 UTC 2026 =====
+top - 19:04:01 up  4:07,  2 users,  load average: 0.24, 0.05, 0.02
+Tasks:  69 total,   3 running,  66 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.9 us, 24.3 sy,  0.0 ni, 54.1 id,  0.0 wa,  0.0 hi,  2.7 si,  0.0 st 
+MiB Mem :   5845.2 total,   5138.5 free,    667.0 used,    185.3 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5178.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5497 aarohil+  20   0   11.3g 130440  52224 R  90.9   2.2   0:04.88 node
+   5575 aarohil+  20   0 1051932  55416  39808 R  81.8   0.9   0:00.47 node
+   5510 aarohil+  20   0  754168  50888  37888 S   9.1   0.9   0:00.45 node
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  512K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    5594  150  0.0   8280  4224 ?        R    19:04   0:00 ps aux --sort=-%cpu
+aarohil+    5497 98.0  2.1 11867812 130824 pts/3 Rl+  19:03   0:04 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    5575 88.5  0.9 1054108 57464 pts/3   Rl+  19:04   0:00 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5569 51.6  0.7 748396 45032 pts/7    Ssl+ 19:03   0:00 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 34881 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+
+===== Tue Mar 24 19:06:01 UTC 2026 =====
+top - 19:06:01 up  4:09,  2 users,  load average: 0.17, 0.09, 0.03
+Tasks:  66 total,   1 running,  65 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.2 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4586.5 free,   1144.5 used,    260.0 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4700.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5517 aarohil+  20   0 1064440  68200  47744 S   9.1   1.1   0:01.98 node
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.41 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  516K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    5575 20.1  9.3 54798884 558628 pts/3 Sl+  19:03   0:26 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  6.1  1.7 11828020 103372 pts/3 Sl+  19:03   0:08 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    5517  1.4  1.1 1064440 68200 pts/3   Sl+  19:03   0:01 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=ptyHost --logsPath /home/aarohilinux/.vscode-server/data/logs/20260324T190357
+aarohil+    5510  0.5  1.0 1022964 63304 pts/4   Ssl+ 19:03   0:00 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 34881 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+
+===== Tue Mar 24 19:08:01 UTC 2026 =====
+top - 19:08:02 up  4:12,  2 users,  load average: 0.02, 0.06, 0.02
+Tasks:  67 total,   1 running,  66 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  6.8 sy,  0.0 ni, 93.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4584.1 free,   1146.7 used,    260.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4698.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5575 aarohil+  20   0   52.3g 561572  56576 S  18.2   9.4   0:32.40 node
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.42 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  516K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+tmpfs           585M   20K  585M   1% /run/user/1003
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    5575 12.3  9.3 54799908 561572 pts/3 Rl+  19:03   0:32 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  3.1  1.7 11828020 104012 pts/3 Sl+  19:03   0:08 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    5517  0.8  1.1 1064440 68328 pts/3   Sl+  19:03   0:02 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=ptyHost --logsPath /home/aarohilinux/.vscode-server/data/logs/20260324T190357
+aarohil+    5510  0.3  1.0 1022964 63432 pts/4   Ssl+ 19:03   0:00 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 34881 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+
+===== Tue Mar 24 19:10:01 UTC 2026 =====
+top - 19:10:01 up  4:14,  1 user,  load average: 0.04, 0.06, 0.02
+Tasks:  48 total,   1 running,  47 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4590.9 free,   1122.2 used,    278.0 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4723.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.49 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    6858 50.0  0.0   8280  4224 ?        R    19:10   0:00 ps aux --sort=-%cpu
+aarohil+    5575  9.6  9.4 54802148 563672 pts/3 Sl+  19:03   0:37 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  2.2  1.7 11829044 105164 pts/3 Sl+  19:03   0:08 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    5517  0.6  1.1 1064952 68456 pts/3   Sl+  19:03   0:02 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=ptyHost --logsPath /home/aarohilinux/.vscode-server/data/logs/20260324T190357
+
+===== Tue Mar 24 19:12:01 UTC 2026 =====
+top - 19:12:01 up  4:16,  1 user,  load average: 0.12, 0.10, 0.03
+Tasks:  50 total,   1 running,  49 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  6.8 sy,  0.0 ni, 88.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4585.7 free,   1127.1 used,    278.3 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4718.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.50 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+      8 root      20   0    3160   1852   1792 S   0.0   0.0   0:00.37 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    5575  8.0  9.4 54803428 564824 pts/3 Sl+  19:03   0:42 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.7  1.7 11829044 105420 pts/3 Sl+  19:03   0:08 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    5517  0.5  1.1 1064952 68536 pts/3   Sl+  19:03   0:03 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=ptyHost --logsPath /home/aarohilinux/.vscode-server/data/logs/20260324T190357
+aarohil+    5510  0.1  1.0 1022964 63688 pts/4   Ssl+ 19:03   0:00 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 34881 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+
+===== Tue Mar 24 19:14:01 UTC 2026 =====
+top - 19:14:02 up  4:18,  1 user,  load average: 0.01, 0.06, 0.02
+Tasks:  53 total,   1 running,  52 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.2 us,  0.0 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4577.7 free,   1135.0 used,    278.5 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4710.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7605 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.51 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.08 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    7608  100  0.0   8280  4224 ?        R    19:14   0:00 ps aux --sort=-%cpu
+aarohil+    5575  7.1  9.4 54804452 566104 pts/3 Sl+  19:03   0:46 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    7582  1.7  0.0   6072  5248 pts/0    Ss+  19:13   0:00 -bash
+aarohil+    5497  1.3  1.7 11829044 105420 pts/3 Sl+  19:03   0:09 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+
+===== Tue Mar 24 19:16:01 UTC 2026 =====
+top - 19:16:01 up  4:20,  1 user,  load average: 0.19, 0.12, 0.04
+Tasks:  58 total,   1 running,  57 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.3 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4002.9 free,   1701.7 used,    286.8 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4143.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7878 aarohil+  20   0   52.2g 545248  56704 S   8.3   9.1   0:20.10 node
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.53 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    8168  100  0.0   8280  4224 ?        R    19:16   0:00 ps aux --sort=-%cpu
+aarohil+    7878 32.5  9.1 54782176 545248 pts/3 Sl+  19:14   0:20 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  6.6  9.4 54806244 567860 pts/3 Sl+  19:03   0:52 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    7849  4.5  1.0 1262536 60948 pts/3   Sl+  19:14   0:02 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+
+===== Tue Mar 24 19:18:01 UTC 2026 =====
+top - 19:18:01 up  4:22,  1 user,  load average: 0.09, 0.10, 0.04
+Tasks:  58 total,   1 running,  57 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.4 us,  2.2 sy,  0.0 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3996.3 free,   1708.1 used,    287.0 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4137.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7878 aarohil+  20   0   52.2g 546272  56704 S   9.1   9.1   0:24.90 node
+   8684 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.55 systemd
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    8687  100  0.0   8280  4224 ?        R    19:18   0:00 ps aux --sort=-%cpu
+aarohil+    7878 12.9  9.1 54782944 546272 pts/3 Sl+  19:14   0:24 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  6.4  9.5 54807780 569268 pts/3 Sl+  19:02   0:58 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.8  2.2 11863604 137292 pts/3 Sl+  19:02   0:17 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+
+===== Tue Mar 24 19:20:01 UTC 2026 =====
+top - 19:20:02 up  4:25,  1 user,  load average: 0.07, 0.08, 0.04
+Tasks:  60 total,   1 running,  59 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3991.2 free,   1712.9 used,    287.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4132.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5497 aarohil+  20   0   11.3g 138060  52352 S   9.1   2.3   0:17.61 node
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.56 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    9222 50.0  0.0   8280  4224 ?        R    19:20   0:00 ps aux --sort=-%cpu
+aarohil+    7878  9.3  9.1 54784224 547936 pts/3 Sl+  19:14   0:29 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  6.0  9.5 54809060 570932 pts/3 Sl+  19:02   1:03 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.6  2.3 11863604 138060 pts/3 Sl+  19:02   0:17 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+
+===== Tue Mar 24 19:22:01 UTC 2026 =====
+top - 19:22:01 up  4:27,  1 user,  load average: 0.05, 0.07, 0.03
+Tasks:  60 total,   1 running,  59 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.3 us, 17.1 sy,  0.0 ni, 75.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3985.2 free,   1718.7 used,    287.4 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4126.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   7878 aarohil+  20   0   52.2g 549088  56704 S  18.2   9.2   0:36.62 node
+   9722 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.57 systemd
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    7878  8.1  9.1 54785504 549088 pts/3 Sl+  19:14   0:36 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  5.8  9.5 54810084 572084 pts/3 Sl+  19:02   1:08 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.5  2.3 11864372 139852 pts/3 Sl+  19:02   0:18 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    7849  0.8  1.0 1262536 62768 pts/3   Sl+  19:14   0:04 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+
+===== Tue Mar 24 19:24:01 UTC 2026 =====
+top - 19:24:01 up  4:29,  1 user,  load average: 0.08, 0.08, 0.04
+Tasks:  58 total,   1 running,  57 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  2.3 sy,  0.0 ni, 95.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3981.9 free,   1721.8 used,    287.7 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4123.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  10219 aarohil+  20   0    9284   5120   3072 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.59 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+   10222  100  0.0   8280  4224 ?        R    19:24   0:00 ps aux --sort=-%cpu
+aarohil+    7878  7.1  9.1 54786528 550240 pts/3 Sl+  19:14   0:41 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  5.6  9.6 54811364 574900 pts/3 Sl+  19:02   1:13 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.4  2.3 11864372 139852 pts/3 Sl+  19:02   0:18 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+
+===== Tue Mar 24 19:26:01 UTC 2026 =====
+top - 19:26:01 up  4:31,  1 user,  load average: 0.17, 0.10, 0.05
+Tasks:  58 total,   1 running,  57 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3981.5 free,   1721.9 used,    287.9 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4123.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.60 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+      8 root      20   0    3168   1884   1792 S   0.0   0.0   0:00.58 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    7878  6.4  9.2 54787552 551136 pts/3 Sl+  19:14   0:46 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  5.4  9.6 54812644 576052 pts/3 Sl+  19:02   1:17 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.3  2.3 11864372 139852 pts/3 Sl+  19:02   0:19 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    7849  0.6  1.0 1262536 62648 pts/3   Sl+  19:14   0:04 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+
+===== Tue Mar 24 19:28:01 UTC 2026 =====
+top - 19:28:01 up  4:33,  1 user,  load average: 0.20, 0.13, 0.06
+Tasks:  58 total,   1 running,  57 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.1 us,  0.0 sy,  0.0 ni, 97.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3972.3 free,   1730.9 used,    288.1 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4114.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11190 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.02 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.61 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+   11193  100  0.0   8280  4224 ?        R    19:28   0:00 ps aux --sort=-%cpu
+aarohil+    7878  5.9  9.2 54788576 552160 pts/3 Sl+  19:13   0:49 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  5.2  9.6 54813924 577204 pts/3 Sl+  19:02   1:21 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+   11188  3.5  0.0   4752  3328 ?        S    19:28   0:00 /bin/bash /home/aarohilinux/devops-assignment/task1-monitoring/monitor.sh
+
+===== Tue Mar 24 19:30:01 UTC 2026 =====
+top - 19:30:01 up  4:35,  1 user,  load average: 0.09, 0.11, 0.06
+Tasks:  58 total,   1 running,  57 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.3 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3971.5 free,   1731.6 used,    288.3 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4113.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11676 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.63 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    7878  5.5  9.2 54789600 553568 pts/3 Sl+  19:13   0:54 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  5.1  9.6 54814948 578356 pts/3 Sl+  19:01   1:26 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.1  2.3 11864372 140236 pts/3 Sl+  19:01   0:19 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    7849  0.5  1.0 1262536 63192 pts/3   Sl+  19:13   0:05 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+
+===== Tue Mar 24 19:32:01 UTC 2026 =====
+top - 19:32:02 up  4:38,  1 user,  load average: 0.17, 0.13, 0.08
+Tasks:  59 total,   1 running,  58 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3969.4 free,   1733.4 used,    288.5 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4111.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.64 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+      8 root      20   0    3168   1884   1792 S   0.0   0.0   0:00.58 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    7878  5.3  9.2 54790624 554848 pts/3 Sl+  19:13   0:58 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  5.0  9.6 54816484 579892 pts/3 Sl+  19:01   1:31 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.1  2.3 11864372 140236 pts/3 Sl+  19:01   0:20 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    7849  0.5  1.0 1262536 63192 pts/3   Sl+  19:13   0:05 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+
+===== Tue Mar 24 19:34:01 UTC 2026 =====
+top - 19:34:01 up  4:40,  1 user,  load average: 0.28, 0.19, 0.11
+Tasks:  59 total,   2 running,  57 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  6.8 sy,  0.0 ni, 88.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3964.2 free,   1738.2 used,    289.0 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4107.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5575 aarohil+  20   0   52.3g 581172  56576 R  63.6   9.7   1:36.27 node
+  12649 aarohil+  20   0    9284   5248   3200 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.67 systemd
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   92K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    7878  5.1  9.2 54791648 555872 pts/3 Sl+  19:13   1:02 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  4.9  9.7 54817764 581172 pts/3 Rl+  19:01   1:36 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5497  1.0  2.3 11864372 140236 pts/3 Sl+  19:01   0:20 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root       12552  0.6  0.2 1756364 13184 ?       Ssl  19:33   0:00 /usr/libexec/wsl-pro-service
+
+===== Tue Mar 24 19:36:01 UTC 2026 =====
+top - 19:36:01 up  4:42,  1 user,  load average: 0.21, 0.18, 0.10
+Tasks:  59 total,   1 running,  58 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.2 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   3959.5 free,   1742.6 used,    289.3 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4102.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.69 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+      8 root      20   0    3168   1884   1792 S   0.0   0.0   0:00.58 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   96K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+   13142  100  0.0   8280  4224 ?        R    19:36   0:00 ps aux --sort=-%cpu
+aarohil+    7878  4.9  9.3 54792672 557024 pts/3 Sl+  19:13   1:07 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+    5575  4.8  9.7 54819044 582452 pts/3 Sl+  19:01   1:40 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+root       13135  3.5  0.0   6956  3720 ?        S    19:36   0:00 /usr/sbin/CRON -f -P
+
+===== Tue Mar 24 19:38:01 UTC 2026 =====
+top - 19:38:02 up  4:44,  1 user,  load average: 0.42, 0.27, 0.14
+Tasks:  54 total,   1 running,  53 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.3 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4480.9 free,   1204.3 used,    306.4 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4641.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5517 aarohil+  20   0 1139196  69528  48000 S  27.3   1.2   0:06.31 node
+   7878 aarohil+  20   0   52.3g 591212  56704 S  18.2   9.9   1:21.92 node
+   7839 root      20   0    3136   1168   1024 S   9.1   0.0   0:00.72 Relay(7+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   96K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    7878  5.4  9.8 54835036 591212 pts/3 Sl+  19:13   1:21 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+   13590  3.6  1.0 1018612 62112 pts/3   Sl+  19:37   0:01 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=7878
+root       13740  3.0  0.0   6956  3720 ?        S    19:38   0:00 /usr/sbin/CRON -f -P
+aarohil+    5497  1.0  2.3 11864540 140364 pts/3 Sl+  19:01   0:22 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+
+===== Tue Mar 24 19:40:01 UTC 2026 =====
+top - 19:40:01 up  4:46,  1 user,  load average: 0.08, 0.20, 0.13
+Tasks:  45 total,   1 running,  44 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   5087.7 free,    597.3 used,    306.5 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5247.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  14133 aarohil+  20   0    9284   5248   3200 R   8.3   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.72 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.09 init-sy+
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   96K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+    5497  0.9  2.3 11864540 140492 pts/3 Sl+  19:00   0:23 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4215103814-1715533545-2346024469-2944799908 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+    5517  0.3  1.1 1205244 70548 pts/3   Sl+  19:00   0:07 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=ptyHost --logsPath /home/aarohilinux/.vscode-server/data/logs/20260324T190357
+root       12552  0.0  0.2 1756364 13184 ?       Ssl  19:33   0:00 /usr/libexec/wsl-pro-service
+root          98  0.0  0.1  25356  6528 ?        Ss   14:53   0:04 /usr/lib/systemd/systemd-udevd
+
+===== Tue Mar 24 19:42:01 UTC 2026 =====
+top - 19:42:01 up  4:48,  1 user,  load average: 0.39, 0.37, 0.21
+Tasks:  51 total,   1 running,  50 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  0.0 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4524.2 free,   1156.5 used,    310.9 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4688.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.74 systemd
+      2 root      20   0    3120   1920   1792 S   0.0   0.0   0:00.10 init-sy+
+      8 root      20   0    3176   1996   1792 S   0.0   0.0   0:00.65 init
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   96K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  500K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+   14252 31.6  9.4 54803548 566812 pts/2 Sl+  19:40   0:35 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+   14171 11.5  2.1 11844352 126732 pts/2 Sl+  19:40   0:13 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=1075747398-2256248649-2305602094-732615984 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root       14558  3.2  0.0   6956  3720 ?        S    19:42   0:00 /usr/sbin/CRON -f -P
+aarohil+   14222  2.8  1.0 1262536 61108 pts/2   Sl+  19:40   0:03 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+
+===== Tue Mar 24 19:44:01 UTC 2026 =====
+top - 19:44:01 up  4:51,  1 user,  load average: 0.18, 0.31, 0.21
+Tasks:  50 total,   1 running,  49 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.2 us,  2.2 sy,  0.0 ni, 95.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4509.1 free,   1171.3 used,    311.2 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4674.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  14191 aarohil+  20   0 1064440  73044  48128 S   8.3   1.2   0:02.80 node
+  14759 aarohil+  20   0    9284   5248   3200 R   8.3   0.1   0:00.01 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.77 systemd
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   96K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+   14252 16.8  9.6 54811412 575068 pts/2 Sl+  19:39   0:40 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+   14171  5.6  2.1 11844352 126732 pts/2 Sl+  19:39   0:14 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=1075747398-2256248649-2305602094-732615984 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root       14755  3.5  0.0   6956  3720 ?        S    19:44   0:00 /usr/sbin/CRON -f -P
+aarohil+   14222  1.4  1.0 1262536 62132 pts/2   Sl+  19:39   0:03 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+
+===== Tue Mar 24 19:46:01 UTC 2026 =====
+top - 19:46:01 up  4:53,  1 user,  load average: 0.07, 0.25, 0.19
+Tasks:  47 total,   1 running,  46 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.3 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4509.8 free,   1170.4 used,    311.4 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4674.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  14252 aarohil+  20   0   52.3g 575580  56704 S   8.3   9.6   0:45.62 node
+  15027 aarohil+  20   0    9284   5248   3200 R   8.3   0.1   0:00.02 top
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.79 systemd
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  103G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   96K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  103G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+   15030  100  0.0   8280  4224 ?        R    19:46   0:00 ps aux --sort=-%cpu
+aarohil+   14252 12.2  9.6 54811412 575580 pts/2 Sl+  19:39   0:45 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+   14171  3.8  2.1 11844352 126860 pts/2 Sl+  19:39   0:14 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=1075747398-2256248649-2305602094-732615984 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+   15025  3.7  0.0   4752  3456 ?        S    19:46   0:00 /bin/bash /home/aarohilinux/devops-assignment/task1-monitoring/monitor.sh
+
+===== Tue Mar 24 19:48:01 UTC 2026 =====
+top - 19:48:01 up  4:55,  1 user,  load average: 0.01, 0.15, 0.16
+Tasks:  47 total,   2 running,  45 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  2.3 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5845.2 total,   4509.4 free,   1170.6 used,    311.6 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4674.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  14252 aarohil+  20   0   52.3g 575836  56704 R  40.0   9.6   0:48.09 node
+  14223 aarohil+  20   0 1013716  55784  44288 S  10.0   0.9   0:02.00 node
+      1 root      20   0   21888  12496   9168 S   0.0   0.2   0:04.80 systemd
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         188G   85G  104G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            2.9G   96K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  496K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             188G   85G  104G  46% /mnt/c
+D:\              50G  349M   50G   1% /mnt/d
+E:\             466G  210G  257G  46% /mnt/e
+tmpfs           585M   20K  585M   1% /run/user/1000
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aarohil+   14252  9.5  9.6 54811924 575836 pts/2 Sl+  19:39   0:48 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+aarohil+   14171  2.9  2.1 11844352 126988 pts/2 Sl+  19:39   0:15 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=1075747398-2256248649-2305602094-732615984 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+aarohil+   14222  0.7  1.0 1262536 62328 pts/2   Sl+  19:39   0:03 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+aarohil+   14191  0.7  1.2 1064696 74836 pts/2   Sl+  19:39   0:03 /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/aarohilinux/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=ptyHost --logsPath /home/aarohilinux/.vscode-server/data/logs/20260324T194012
+

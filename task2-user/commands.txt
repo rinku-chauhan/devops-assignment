@@ -1,0 +1,6 @@
+Created users sarah and mike
+Created workspace directories
+Set ownership using chown
+Applied permissions using chmod 700
+Configured password expiry using chage
+Verified isolation using su command
