@@ -40,12 +40,28 @@ All relevant screenshots are available in the `screenshots/` folder.
 
 ---
 
+## Challenges Faced
+- Handling WSL vs Windows file system paths
+- Cron service behavior in WSL
+- Permission issues while accessing system directories
+
+## Learnings
+- Importance of automation in DevOps
+- Linux user management and security
+- Backup and recovery strategies
+
+---
+
 ## Important Notes
 - In Ubuntu (WSL), Apache uses /etc/apache2 instead of /etc/httpd
 - Both servers share the same document root (/var/www/html), resulting in duplicate backups
 - In production, optimized backup strategies should be used
 - Cron may need manual start in WSL
 
+---
+
+## Conclusion
+This project demonstrates key DevOps practices including monitoring, security, automation, and backup management.
 
 
 
