@@ -1,4 +1,4 @@
-# DevOps Assignment
+# Linux & Web Server
 
 ## Overview
 This project demonstrates system monitoring, user management, and automated backup configuration using Linux in a WSL environment.
