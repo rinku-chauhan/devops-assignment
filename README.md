@@ -1,8 +1,8 @@
-# Linux and Web Server
-
+# Linux System Administration & Web Server Management
 
 ## Overview
-This project demonstrates system monitoring, user management, and automated backup configuration using Linux in a WSL environment.
+
+This project demonstrates practical Linux system administration skills in an Ubuntu (WSL) environment. It includes system monitoring, user and permission management, Apache and Nginx web server administration, and automated backup configuration using Bash scripting and Cron jobs. The project showcases hands-on experience with common Linux administration tasks used in DevOps and cloud environments.
 
 ---
 
